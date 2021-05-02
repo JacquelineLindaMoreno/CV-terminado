@@ -1,0 +1,30 @@
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop
+$ cd cv\ jacqueline/
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline
+$ code .
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline
+$ git init .
+Initialized empty Git repository in C:/Users/pablito/Desktop/cv jacqueline/.git/
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline (master)
+$ git remote -v add origin https://github.com/vsjacqueline
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline (master)
+$ git remote -v
+origin  https://github.com/vsjacqueline (fetch)
+origin  https://github.com/vsjacqueline (push)
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline (master)
+$ git add .
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline (master)
+$ git commit -m 'mi cv terminado'
+[master (root-commit) 18eac38] mi cv terminado
+ 1 file changed, 18 insertions(+)
+ create mode 100644 index.html
+
+pablito@DESKTOP-TFS4MP2 MINGW64 ~/Desktop/cv jacqueline (master)
+$ git push origin master
+
